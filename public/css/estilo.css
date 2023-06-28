@@ -1,0 +1,70 @@
+
+body{
+  background-image: url(../img/GENTE.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contenedorGeneral{
+        position: absolute;
+        display: flex;  
+        width:45vh; 
+        height: 15vh; 
+        border-radius: 20px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+}
+.posicionContenedor1{
+  top:30%
+}
+
+.posicionContenedor2{
+  top:50%
+}
+
+.posicionContenedor3{
+  top:70%
+}
+.efectoEsmerilado{
+  background-color: rgba(49, 49, 49, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.30);/*Profundidad*/
+  backdrop-filter: blur( 3px); /*sombra*/
+}
+
+.form-check{
+    font-size: 5vh;
+    margin-top: 3vh;
+}
+
+.logo-fb{
+  font-size: 9vh;
+  color: rgb(59, 89, 152);
+  margin-left: 4vh;
+  margin-right: 20vh;
+}
+.logo-wp{
+  font-size: 9vh;
+  color: rgb(37, 211, 102);
+  margin-left: 4vh;
+  margin-right: 20vh;
+}
+.logo-tw{
+  font-size: 9vh;
+  color: rgb(29, 161, 242);
+  margin-left: 4vh;
+  margin-right: 20vh;
+}
+
+
+.wp:focus {
+  border-color:  rgb(37, 211, 102) !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(253, 13, 57, 0.25);
+}
+
+.wp:checked {
+  background-color: rgb(37, 211, 102) !important;
+  border-color: rgb(37, 211, 102) !important;
+}
+
